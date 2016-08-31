@@ -1,2 +1,2 @@
 # RuidongXue
-Personal Website RuidongXue
+Personal Website
