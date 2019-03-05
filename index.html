@@ -51,6 +51,17 @@ ga('send', 'pageview');
 		else{    localStorage.pagecount=1;}document.write("Visit times: " + localStorage.pagecount + " time(s).");
 	</script>
 	
+	<script>
+          	function myFunction() {
+  			var x = document.getElementById("myDIV");
+  			if (x.style.display === "none") {
+    				x.style.display = "block";
+  			} else {
+    				x.style.display = "none";
+  			}
+		}
+	</script>
+	
 	<a href="https://gite360.github.io/RuidongXue/cn.html">中文</a>
 	
 	<header>
@@ -157,7 +168,8 @@ ga('send', 'pageview');
 				</p>
 				
 				<p>
-					<b>2019.01.09-2019.01.011, <a href="http://smartindustry4.uk/">SMART INDUSTRY WORKSHOP</a></b> - Recent Advances in Industrial Digitalisation, Robotics and Automation-Nottingham Trent University, Nottingham, UK.
+					<b>2019.01.09-2019.01.011, <a href="http://smartindustry4.uk/">SMART INDUSTRY WORKSHOP</a></b> - Recent Advances in Industrial Digitalisation, Robotics and Automation-Nottingham Trent University, Nottingham, UK.<button onclick="myFunction()">Photo</button>
+					<div id="myDIV">This is my DIV element.</div>
 					<!-- <li>&nbsp;&nbsp;&nbsp;&nbsp;Data mining to the examination and
 					diagnostic testing data.</li> -->
 				</p>
